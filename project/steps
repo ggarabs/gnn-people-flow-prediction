@@ -1,0 +1,18 @@
+ARMAZENAMENTO DO GRAFO EM MEMÓRIA:
+        - NetworkX: integração com vários agentes e compatíveis de com PyTorch Geometric (GNN)
+                - Criação de grafos de entrada para o GNN
+
+FERRAMENTAS DE SIMULAÇÃO:
+        - MESA (Python): baseada em agentes (difícil de simular um fluxo real, mas fácil de aprender, manusear e criar regras de tráfego
+                - contra: para uma grande quantidade de agentes simultâneos, ele fica mais lento => talvez executar em cluster
+        - SUMO: especializado em tráfego de veículos em trânsito (contra: perda das questões humanas)
+        - Repast HPC: Mais complexo, mas pode simular milhares de agentes simultaneamente. Porém, se precisar, vai rodar 
+        - AnyLogic: maior curva de aprendizado, pago.
+        - Unity/Unreal + NavMesh: 3D (contra)
+        - CityGML: 3D, detalhado, pesado (contra)
+
+FRAMEWORKS DE GNN:
+        - PyTorch Geometric(PyG): integrada com networkx
+        - Deep Graph Library(DGL):
+        - Spektral:
+        - ST-GNN: bom para dados temporais + estrutura espacial do grafo
